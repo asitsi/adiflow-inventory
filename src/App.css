@@ -1,0 +1,46 @@
+.App {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  margin: 0 1rem;
+}
+
+.App-header {
+  display: grid;
+  grid-template-columns: 250px 650px auto;
+  grid-gap: 5px;
+}
+
+.one {
+  /* background-color: aqua; */
+}
+
+.button {
+  color: white;
+  background-color: rgb(85,61,233);
+  width: -webkit-fill-available;
+  border: none;
+  outline: none;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0 1rem 0;
+} 
+
+.two {
+  /* background-color: greenyellow; */
+}
+
+.ten {
+  /* background-color: rgb(255, 136, 0); */
+}
+
+.Icon_color {
+  height: 20px!important;
+  width: 20px!important;
+  color:rgba(117,130,131,1);
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+}
